@@ -1,0 +1,61 @@
+Munwar Mohammad
+Senior AI/ML Engineer
+
+(205) 365-0172 | munwarmohd15@gmail.com | Birmingham, AL (Open for Relocation) | LinkedIn
+SUMMARY
+AI/ML Engineer with 4+ years building, validating, and deploying machine learning systems at FedEx and Wells Fargo. Builds PySpark
+batch-scoring pipelines on Azure Databricks, XGBoost and Prophet models, and FastAPI services on AKS with MLflow release gates
+and Evidently AI drift monitoring. Fine-tuned DistilBERT and built a RAG assistant evaluated with RAGAS in projects.
+EDUCATION
+University of Alabama at Birmingham May 2026
+MS, Data Science
+EXPERIENCE
+FedEx | AI/ML Engineer | US April 2025 – Present
+ Built PySpark batch-scoring pipelines on Azure Databricks, ingesting shipment and scan-event data from ADLS Gen2 through
+Azure Data Factory to predict delivery-exception risk for 18,000 daily shipments across 3 regional hubs.
+ Implemented schema, null, duplicate, and range checks before inference, reducing failed scoring runs by 22% and catching an
+average of 35 data-quality issues per month before they reached operations teams.
+ Developed Prophet and XGBoost hub-level package-volume forecasts validated with rolling time-series backtesting, reducing MAPE
+from 18.6% to 13.2% across 6 regional hubs to support staffing and capacity planning.
+ Deployed models as FastAPI services in Docker on AKS with Azure ML endpoints, adding request validation and structured logging
+that reduced median response latency from 250 ms to 210 ms.
+ Introduced precision, recall, and F1 release gates in MLflow Model Registry, cutting model-review rework 18%; built Evidently AI
+and Application Insights monitoring of prediction volume, latency, and feature drift, cutting issue-triage time from 4 to 2.8 hours and
+repeat incidents 24%.
+ Automated PyTest unit and integration tests in Azure DevOps CI/CD, reaching 82% pipeline test coverage and standardizing
+releases through versioned configuration and documented rollback procedures.
+Wells Fargo | AI/ML Engineer | IN june 2021 – july 2024
+ Built an XGBoost transaction-fraud classifier on highly imbalanced data using SMOTE, class weighting, and threshold tuning,
+improving validation F1 by 7% over the existing baseline on held-out data.
+ Developed Isolation Forest anomaly detection on account-activity data, flagging 1,250 cases per month for investigation teams with
+a 31% confirmed-actionable rate, including patterns missed by rule-based checks.
+ Engineered features from 6 recurring SQL extracts in Pandas and tuned Scikit-learn and XGBoost models with stratified cross-
+validation; applied SHAP and segment-level error analysis to document drivers, trade-offs, and limitations for model-risk review.
+ Created reusable feature-preparation scripts and data-quality checks, reducing manual preparation time by 20% and standardizing
+monthly model-refresh inputs.
+Advanced AI GitHub PR Code Reviewer | Agentic AI & Distributed Systems*
+
+Technologies: Python, LangGraph, OpenAI, FastAPI, Celery, Redis, PostgreSQL, Docker, Langfuse
+
+•⁠  ⁠Developed an event-driven, multi-agent AI code review platform using *LangGraph and OpenAI*, orchestrating four parallel agents for static analysis, security vulnerabilities, architecture, and code quality.
+•⁠  ⁠Designed *FastAPI microservices* integrated with GitHub Webhooks, Celery, Redis, and PostgreSQL to automate pull request analysis, asynchronous processing, and structured review feedback.
+•⁠  ⁠Implemented a continuous learning workflow using merged pull requests to refine review patterns, with *Langfuse, Prometheus, and Grafana* for LLM tracing, system monitoring, and observability.
+
+*PolicyPilot – Enterprise Agentic RAG Platform | Azure Databricks*
+
+Technologies: Python, LangGraph, Azure Databricks, Unity Catalog, Vector Search, Delta Lake, LLMs, GitHub Actions
+
+•⁠  ⁠Built an enterprise-grade *Agentic RAG system using LangGraph and Azure Databricks* to analyze SEC 10-K financial filings across 20 companies and generate context-aware answers with source citations.
+•⁠  ⁠Developed document ingestion, chunking, embedding, and semantic retrieval pipelines using *Unity Catalog, Delta Lake, and Databricks Vector Search*, enabling governed access to financial documents.
+•⁠  ⁠Implemented citation validation, hallucination guardrails, and *LLM evaluation workflows*, with Unity AI Gateway for model access and GitHub Actions for automated, credential-free CI/CD deployment.
+
+TECHNICAL SKILLS
+Programming &amp; Data: Python, SQL (CTEs, Window Functions), Pandas, NumPy, PySpark, ETL/ELT, Data Quality Validation
+Machine Learning: Predictive Modeling, Classification, Regression, Feature Engineering, Scikit-learn, XGBoost, SMOTE, Time Series
+Forecasting, Prophet, Time-Series Backtesting, Anomaly Detection, Cross-Validation, SHAP
+MLOps &amp; Deployment: MLflow Experiment Tracking and Model Registry, Azure ML Endpoints, FastAPI, REST APIs, Docker, Model
+Monitoring, Data Drift Detection, Evidently AI
+Deep Learning &amp; GenAI: PyTorch, Hugging Face Transformers, LLMs, RAG, Azure AI Search, Embeddings, LangChain, LLM Evaluation,
+Azure OpenAI
+Cloud &amp; Infrastructure: Azure (Databricks, Data Factory, ADLS Gen2, AKS)
+Software Engineering: Git, Azure DevOps CI/CD, PyTest, Integration Testing, Application Insights, Logging &amp; Observability
