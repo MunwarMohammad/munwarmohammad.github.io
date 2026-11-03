@@ -31,3 +31,8 @@ body{overflow-x:clip}
 header{position:sticky;top:0;z-index:100;background:rgba(5,5,5,.94);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid #ffffff0d}
 html{scroll-padding-top:140px}
 @media(max-width:650px){html{scroll-padding-top:104px}}
+
+/* Seamless navigation: show the same page background through the header. */
+header{position:sticky;top:0;z-index:100;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;border-bottom:0;box-shadow:none}
+html{scroll-padding-top:140px}
+@media(max-width:650px){html{scroll-padding-top:104px}}
