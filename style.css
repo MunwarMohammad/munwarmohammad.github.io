@@ -36,3 +36,12 @@ html{scroll-padding-top:140px}
 header{position:sticky;top:0;z-index:100;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;border-bottom:0;box-shadow:none}
 html{scroll-padding-top:140px}
 @media(max-width:650px){html{scroll-padding-top:104px}}
+
+/* Compact, opaque navigation prevents scrolling content from showing through. */
+header{position:sticky;top:0;z-index:100;width:100%;max-width:none;height:64px;padding:0 max(32px,calc((100% - 1240px)/2));margin:0;background-color:var(--bg);background-image:linear-gradient(#ffffff04 1px,transparent 1px),linear-gradient(90deg,#ffffff06 1px,transparent 1px);background-size:28px 28px;backdrop-filter:none;-webkit-backdrop-filter:none;border:0;box-shadow:none;flex-shrink:0}
+html{scroll-padding-top:80px}
+header .brand{font-size:24px}
+header nav{align-items:center}
+header nav a{display:inline-flex;align-items:center;min-height:44px}
+.skip{z-index:101}
+@media(max-width:650px){header{height:60px;padding:0 22px}html{scroll-padding-top:76px}}
