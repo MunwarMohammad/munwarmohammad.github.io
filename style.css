@@ -26,3 +26,8 @@ body{overflow-x:clip}
 .skill-logo.light-tile img{background:#f1f1f1;border-radius:10px;padding:7px}
 .technology .skill-wordmark{font-size:17px;letter-spacing:-.5px;color:#d9d9d9;font-weight:600}
 @media(max-width:650px){.technology .skill-logo{height:55px}.skill-logo img{width:48px;height:48px}.technology .skill-wordmark{font-size:15px;height:55px}}
+
+/* Keep navigation visible without covering anchor destinations. */
+header{position:sticky;top:0;z-index:100;background:rgba(5,5,5,.94);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid #ffffff0d}
+html{scroll-padding-top:140px}
+@media(max-width:650px){html{scroll-padding-top:104px}}

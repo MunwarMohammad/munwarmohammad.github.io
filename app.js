@@ -11,7 +11,6 @@ const dialog=document.querySelector('dialog');document.querySelectorAll('[data-p
     element.style.setProperty('--reveal-delay', `${delay}ms`);
     targets.push(element);
   }
-  prepare(document.querySelector('header'), 'from-top');
   document.querySelectorAll('.hero-copy > *').forEach((element, index) => prepare(element, 'from-left', 100 + index * 110));
   prepare(document.querySelector('.portrait'), 'from-right', 220);
   document.querySelectorAll('.section-heading').forEach(element => prepare(element, 'from-bottom'));
