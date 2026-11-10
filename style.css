@@ -45,3 +45,12 @@ header nav{align-items:center}
 header nav a{display:inline-flex;align-items:center;min-height:44px}
 .skip{z-index:101}
 @media(max-width:650px){header{height:60px;padding:0 22px}html{scroll-padding-top:76px}}
+
+.skill-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: 24px;
+  margin: 48px 0 0;
+}
+.skill-details dt { font-weight: 600; }
+.skill-details dd { margin: 8px 0 0; color: var(--muted); line-height: 1.7; }
